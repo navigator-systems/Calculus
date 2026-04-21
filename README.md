@@ -761,7 +761,27 @@ This is the "FFI" (Foreign Function Interface) - the way different languages com
 
 ## License
 
-[Add your license information here]
+This project is licensed under the **GNU General Public License v3.0**.
+
+```
+Calculus - Kubernetes SDK for GNU Octave
+Copyright (C) 2026
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+```
+
+See the full license text in [LICENSE](LICENSE).
 
 ## FAQ
 
@@ -779,9 +799,5 @@ A: The `rpath` (runtime library path) embeds the location of `libk8s.so` into th
 
 **Q: What if Kubernetes credentials are in a non-standard location?**
 A: The Go code uses the default kubeconfig path (`~/.kube/config`). To use a different config, edit `go/internal/kube.go`.
-
----
-
-**Note:** The current implementation has known limitations, particularly with the `kPod` function.
 
 ---
